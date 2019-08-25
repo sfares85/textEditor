@@ -9,7 +9,7 @@ const styles = {
 
 class App extends Component {
   state = {
-    //style is an object to check the if they're turned on or off to be used when rendering the textbox
+    //style is an object to check the styling if they're turned on or off to be used when rendering the textbox
     style: { bold: false, italic: false, underline: false },
     color: "black"
   };
